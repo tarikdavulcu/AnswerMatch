@@ -1,0 +1,7 @@
+{
+  "name": "AnswerMatch",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

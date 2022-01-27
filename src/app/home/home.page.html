@@ -1,0 +1,28 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content> -->
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-buttons slot="end">
+        <ion-button color="warning" (click)="presentActionSheet()">
+          <ion-icon slot="icon-only" ios="log-out" md="log-out"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <p>Hoşgeldin : {{email}}</p>
+  <p>Gelen APi Şehiri : {{city}}</p>
+</ion-content>
